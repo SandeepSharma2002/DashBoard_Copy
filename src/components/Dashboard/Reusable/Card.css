@@ -22,10 +22,6 @@
     color: black;
 }
 
-@media only screen and (min-width: 720px) and (max-width: 940px) {
-
-}
-
 @media only screen and (min-width: 680px) and (max-width: 930px) {
     .Card{
         padding: 10px;
@@ -44,7 +40,3 @@
     }
     
   }
-
-@media only screen and (max-width: 570px) {
-
-}

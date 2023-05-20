@@ -1,7 +1,6 @@
 import React from "react";
 import "./Authentication.css";
 import { useAuth0 } from "@auth0/auth0-react";
-import { Link } from "react-router-dom";
 
 export default function Authentication() {
   const { loginWithRedirect } = useAuth0();
@@ -36,7 +35,9 @@ export default function Authentication() {
           <div className="link_btn">
             <a href="/">Forgot password?</a>
           </div>
-          <Link to = "/dashboard"><button className="sign_in_btn sign_in" onClick={() => loginWithRedirect()}>Sign In</button></Link>
+         <button types="submit" className="sign_in_btn sign_in" onClick={() => loginWithRedirect()}>
+            Sign In
+          </button>
         </form>
 
         <div className="end_info">

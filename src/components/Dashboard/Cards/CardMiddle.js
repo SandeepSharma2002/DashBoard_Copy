@@ -10,7 +10,7 @@ import {
   Legend,
 } from "chart.js";
 import { Line} from "react-chartjs-2";
-
+import "./CardMiddle.css";
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -76,7 +76,7 @@ export default function CardMiddle() {
   };
 
   return (
-    <div className="App main" style={{height:"50vh"}}>
+    <div className="App_main"/* style={{height:"50vh"}}*/>
       <Line data={data} options={options} />
     </div>
   );

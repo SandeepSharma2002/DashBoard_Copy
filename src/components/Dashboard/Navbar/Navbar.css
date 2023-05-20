@@ -29,6 +29,13 @@
     border:none;
     transition: all .4s;
   }
+  .bell{
+    display: flex;
+      align-items: center;
+      background-color: transparent;
+      font-size: 23px;
+      border: 0px;
+  }
   
   .search-input:focus {
     border:none;
@@ -47,7 +54,7 @@
   .search-btn {
     background-color: transparent;
     font-size: 18px;
-    padding: 6px 9px;
+    /* padding: 6px 9px; */
     margin-left:-45px;
     border:none;
     color: #6c6c6c;
@@ -71,6 +78,10 @@
     width:38.6px;
     height:38.6px;
 }
+.log_out_btn {
+  background-color: transparent;
+  border: 0px;
+  }
 
 
 @media only screen and (min-width: 720px) and (max-width: 940px) {
@@ -91,10 +102,11 @@
 .Navbar{
   height: 4vh;
   width: 100%;
+  margin-top: 8px;
 }
   .search-input {
     display: none;
-    font-size: 10px;
+    font-size: 8px;
   }
   .search-btn {
     font-size: 18px;
@@ -102,6 +114,31 @@
   }
 }
 
-@media only screen and (max-width: 530px) {
-
+@media only screen and (max-width: 580px) {
+  .Nav_heading{
+    font-weight: 700;
+    font-size: 20px;
+}
+.logo-img{
+  width:26px;
+  height:26px;
+}
+.Navbar{
+  height: 6vh;
+  width: 100%;
+  margin: 0.5rem 0 0.6rem 0;
+}
+  .search-btn {
+    font-size: 14px;
+    margin-left:0;
+  }
+  .Nav_icons{
+    gap: 10px;
+}
+.search-btn {
+    margin-right: -7px;
+}
+.bell i{
+  font-size: 17px;
+}
 }

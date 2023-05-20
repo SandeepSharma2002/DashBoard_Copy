@@ -1,0 +1,12 @@
+.B_main{
+    width: 40vh;
+    height: 40vh;
+    margin: auto;
+}
+
+  @media only screen and (max-width: 420px) {
+    .B_main{
+        height: 30vh;
+        width: 30vh;
+    } 
+}

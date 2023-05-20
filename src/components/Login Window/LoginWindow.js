@@ -4,6 +4,7 @@ import "./LoginWindow.css"
 import Authentication from './Authentication'
 
 export default function LoginWindow() {
+
   return (
     <div className='Login_page'>
       <Board/>

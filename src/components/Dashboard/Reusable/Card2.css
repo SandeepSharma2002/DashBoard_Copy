@@ -24,3 +24,10 @@
     padding-bottom: 3px;
     color: #858585;
 }
+
+@media only screen and (max-width: 530px) {
+    .first_row{
+        display: flex;
+        flex-direction: column;
+    }
+}

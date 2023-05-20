@@ -1,6 +1,6 @@
 .db_container{
     display: flex;
-    width: 100%;
+    width:auto;
     padding: 25px;
 }
 .Left_side{
@@ -13,7 +13,6 @@
     flex-direction: column;
     width: 70%;
     padding-left: 25px;
-    /* flex: 2 2; */
 }
 .Cards_bottom{
     display: flex;
@@ -36,7 +35,8 @@
     }
     
 .Right_side{
-    width: 100%;
+    /* width:calc(734px - 93.467px ); */
+    flex-grow: 1;
 }
 }
 
@@ -48,4 +48,22 @@
     gap: 1.2rem;
     width: 100%;
 }
+.db_container{
+    display: flex;
+    width:auto;
+    padding: 15px;
+}
+
+}
+@media only screen and (max-width: 580px) {
+
+    .Right_side{
+        padding-left: 10px;
+    }
+    .Cards_bottom{
+        gap: .8rem;
+    }
+    .Min_cards{
+        gap: 0.8rem;
+    }
 }
