@@ -1,0 +1,51 @@
+.db_container{
+    display: flex;
+    width: 100%;
+    padding: 25px;
+}
+.Left_side{
+    display: flex;
+    width: 30%;
+}
+
+.Right_side{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 25px;
+    /* flex: 2 2; */
+}
+.Cards_bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.Min_cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.2rem;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .Left_side{
+        display: flex;
+        width: fit-content;
+    }
+    
+.Right_side{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 680px) {
+  
+.Min_cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1.2rem;
+    width: 100%;
+}
+}

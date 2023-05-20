@@ -1,0 +1,50 @@
+
+.Card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.icon{
+    margin-left: auto;
+    color: black;
+    font-size: 1.5rem;
+}
+.card_name{
+    font-size: 1rem;
+    color: black;
+}
+
+.figures{
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: black;
+}
+
+@media only screen and (min-width: 720px) and (max-width: 940px) {
+
+}
+
+@media only screen and (min-width: 680px) and (max-width: 930px) {
+    .Card{
+        padding: 10px;
+    }
+    .icon{
+        margin-right: auto;
+        font-size: 1.2rem;
+    }
+    .card_name{
+        font-size: 0.8rem;
+    }
+    
+    .figures{
+        font-weight: 700;
+        font-size: 0.9rem;
+    }
+    
+  }
+
+@media only screen and (max-width: 570px) {
+
+}

@@ -1,0 +1,23 @@
+.LoginBoard{
+    width: 36vw;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.Heading{
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 660px) {
+
+    .LoginBoard{
+        width: 100%;
+    }
+    .Heading{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+}

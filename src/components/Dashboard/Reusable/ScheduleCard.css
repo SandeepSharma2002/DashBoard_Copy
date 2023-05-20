@@ -1,0 +1,17 @@
+.Schedules{
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    /* gap: 3px; */
+    padding-left: 0.6rem;
+}
+.schedule-Title{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #666666;
+}
+.schedule-TV{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #999999;
+}

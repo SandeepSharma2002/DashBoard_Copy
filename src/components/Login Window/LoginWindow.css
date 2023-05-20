@@ -1,0 +1,10 @@
+.Login_page{
+    display: flex;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 660px) {
+    .Login_page{
+        flex-wrap: wrap-reverse;
+    }
+}
