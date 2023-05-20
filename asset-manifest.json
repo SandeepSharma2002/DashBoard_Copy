@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/DashBoard/static/css/main.9f3064f4.css",
-    "main.js": "/DashBoard/static/js/main.8fdeca41.js",
-    "static/js/787.0420ccf9.chunk.js": "/DashBoard/static/js/787.0420ccf9.chunk.js",
-    "static/media/user.png": "/DashBoard/static/media/user.78394485e3a31c374f7a.png",
-    "index.html": "/DashBoard/index.html",
-    "main.9f3064f4.css.map": "/DashBoard/static/css/main.9f3064f4.css.map",
-    "main.8fdeca41.js.map": "/DashBoard/static/js/main.8fdeca41.js.map",
-    "787.0420ccf9.chunk.js.map": "/DashBoard/static/js/787.0420ccf9.chunk.js.map"
+    "main.css": "/DashBoard_Copy/static/css/main.9f3064f4.css",
+    "main.js": "/DashBoard_Copy/static/js/main.e40be739.js",
+    "static/js/787.0420ccf9.chunk.js": "/DashBoard_Copy/static/js/787.0420ccf9.chunk.js",
+    "static/media/user.png": "/DashBoard_Copy/static/media/user.78394485e3a31c374f7a.png",
+    "index.html": "/DashBoard_Copy/index.html",
+    "main.9f3064f4.css.map": "/DashBoard_Copy/static/css/main.9f3064f4.css.map",
+    "main.e40be739.js.map": "/DashBoard_Copy/static/js/main.e40be739.js.map",
+    "787.0420ccf9.chunk.js.map": "/DashBoard_Copy/static/js/787.0420ccf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f3064f4.css",
-    "static/js/main.8fdeca41.js"
+    "static/js/main.e40be739.js"
   ]
 }
