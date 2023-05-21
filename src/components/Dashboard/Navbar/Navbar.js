@@ -25,7 +25,7 @@ export default function Navbar() {
           onClick={() =>
             logout({ logoutParams: { returnTo: window.location.origin } })
           }
-        ><img className="logo-img" src={user_img} alt ="" /></button>:<Link className="bell" to="login">
+        ><img className="logo-img" src={user_img} alt ="" /></button>:<Link to="/login" className="bell" >
         <AiOutlineLogin/>
       </Link>
         }

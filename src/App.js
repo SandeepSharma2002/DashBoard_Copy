@@ -8,7 +8,7 @@ export default function App() {
     <div style={{background: "#f5f5f5"}}>
       
       <Routes>
-        <Route exact path="/" element={<Dashboard />}/>
+        <Route exact path="*" element={<Dashboard />}/>
         {/* <Route exact path="DashBoard_Copy" element={<Dashboard />}/> */}
         <Route exact path="login" element={<LoginWindow/>}/>
       </Routes>
