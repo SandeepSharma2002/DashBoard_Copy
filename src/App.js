@@ -9,7 +9,7 @@ export default function App() {
       
       <Routes>
         <Route exact path="*" element={<Dashboard />}/>
-        {/* <Route exact path="DashBoard_Copy" element={<Dashboard />}/> */}
+        <Route exact path="DashBoard_Copy" element={<Dashboard />}/>
         <Route exact path="login" element={<LoginWindow/>}/>
       </Routes>
     </div>
