@@ -36,7 +36,6 @@
       font-size: 23px;
       border: 0px;
   }
-  
   .search-input:focus {
     border:none;
     outline:none;
@@ -81,9 +80,13 @@
 .log_out_btn {
   background-color: transparent;
   border: 0px;
+  color: #6c6c6c !important;
   }
 
+.Nav_logo{
+  color: black;
 
+}
 @media only screen and (min-width: 720px) and (max-width: 940px) {
   .search-box {
     width: 10rem;
@@ -111,6 +114,13 @@
   .search-btn {
     font-size: 18px;
     margin-left:0;
+  }
+  .show_input{
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: -20px;
+    width: 60px;
   }
 }
 
